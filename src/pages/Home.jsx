@@ -50,11 +50,7 @@ export default function Home() {
       alertPlaceholder.append(wrapper);
     };
 
-    const socket = io(process.env.REACT_APP_API_URL, {
-      transports: ['websocket', 'polling', 'flashsocket'],
-      withCredentials: true
-    }
-    );
+    const socket = io(process.env.REACT_APP_API_URL);
     socket.on("send-message-response", (response) => {
       const receiver = localStorage.getItem("receiver");
 
