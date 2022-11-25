@@ -32,7 +32,7 @@ npm run start
 
 To use this app use this link
 
-[Demo](https://ankasa-ticketing-apps-frontend.vercel.app/)
+[Demo](https://telegrams-fe.vercel.app)
 
 ## Screenshot
 
